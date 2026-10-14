@@ -7,7 +7,7 @@ MODEL_PATH = SRC_DIR / "data" / "gradient-glow.json"
 GALLERY_TEMPLATE = SRC_DIR / "templates" / "gallery.html"
 GALLERY_ASSETS = [SRC_DIR / "static" / "gallery.css", SRC_DIR / "static" / "gallery.js"]
 
-# Original JPEGs (git-ignored) and rendered file names
+# Original JPEGs and rendered file names
 ORIGINALS_DIR = SRC_DIR.parent / "originals"
 ORIGINAL_NAME = "Gradient Glow {}.jpg"
 RENDER_NAME = "gradient-glow-{colour}-{width}x{height}.png"

@@ -33,8 +33,6 @@ Blue original stretched to 4K (left) and rendered at 4K (right), both at 2x:
 
 Each is a JPEG at about quality 99 with 4:4:4 chroma.
 
-`.gitignore` keeps `originals/` out of the repository. Three README images show Blue, whole or in part.
-
 ## Process
 
 `fit.py` fits a model of the design from the originals, in five steps:
@@ -89,8 +87,8 @@ wallpaper/
 |-- AGENTS.md               # Code map, conventions, project context
 |-- requirements.txt        # One dependency set, lint tools included
 |-- tox.ini                 # flake8 config (E501 and E203 ignored)
-|-- .gitignore              # Ignore originals/, shades/, compare/, and rendered PNGs
-|-- originals/              # The six JPEGs from the KDE Store, not committed
+|-- .gitignore              # Ignore shades/, compare/, and rendered PNGs
+|-- originals/              # The six JPEGs from the KDE Store
 |-- docs/
 |   `-- img/                # README images
 |-- extras/
@@ -140,7 +138,6 @@ wallpaper/
 <summary><b>Prerequisites</b></summary>
 
 - Python 3.14
-- For `fit.py` and `compare.py`: the six originals from the [KDE Store page](https://store.kde.org/p/1239429), in `originals/`
 - For the Plasma helper: KDE Plasma 6 with `qdbus-qt6` on `$PATH`
 
 </details>
