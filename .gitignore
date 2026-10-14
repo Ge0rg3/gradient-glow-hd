@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+originals/
+shades/
+compare/
+gradient-glow-*.png
